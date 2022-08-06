@@ -15,10 +15,10 @@ function change()
 function namee(){
     if(z=='X')
     {
-        document.getElementById('h2').innerText="Your turn";
+        document.getElementById('h2').innerText="Your turn 'X'";
     }
     else{
-        document.getElementById('h2').innerText="Opponent turn";
+        document.getElementById('h2').innerText="Opponent turn 'O'";
     }
 }
 function clic(m) {
