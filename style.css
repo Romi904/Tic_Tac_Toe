@@ -132,3 +132,34 @@ td {
     width: 80px;
     height: auto;
 } */
+@media only screen and (max-width:430px) {
+    h1 {
+        left: 3.5rem;
+    }
+    h2{
+        left: 7rem;
+    }
+    #background {
+        width: 105vw;
+        height: 74vh;
+        top: 9rem;
+        left: -1rem;
+    }
+    #tbl{
+        width: 20rem;
+        height: 23rem;
+    }
+    #banner {
+        background-color: #3500ff;
+        width: 27rem;
+        height: 28rem;
+        top: 15rem;
+        left: 0rem;
+    }
+    #win_banner{
+        width: 28rem;
+        height: 29rem;
+        top: 15rem;
+        left: 0rem;
+    }
+}
