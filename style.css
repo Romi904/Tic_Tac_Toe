@@ -1,0 +1,113 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    /* box-sizing: content-box; */
+}
+h1{
+    cursor: default;
+    position: absolute;
+    top:50px;
+    left: 38.5rem;
+    box-shadow: 5px 2px 5px red;
+    display: inline;
+}
+marquee{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(100, 148, 237, 0.514) ;
+}
+h2{
+    position: absolute;
+    top:111px;
+    left: 44rem;
+    box-shadow: 5px 2px 5px red;
+    display: inline;
+    cursor: pointer;
+}
+#banner{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: #3500ff;
+    width: 31rem;
+    height: 31rem;
+    position: absolute;
+    top: 11rem;
+    left: 33rem;
+    border-radius: 23px;
+}
+/* #background{
+    width: 32vw;
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 12rem;
+    left: 34rem;
+} */
+#background{
+    width: 38vw;
+    height: 74vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 9rem;
+    left: 30rem;
+    /* right: 20rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+td:hover{
+    background-color: greenyellow;
+}
+#img{
+    width: 100vw;
+    height: 200vh;
+}
+#tbl{
+    /* background-color: rgba(47, 223, 38, 0.548); */
+    table-layout: fixed;
+    border-radius: 10px;
+    width: 28rem;
+    height: 26rem;
+    border-spacing: 10px;
+    animation: bg infinite 20s;
+}
+#tbl td{
+    border-radius: 10px;
+    /* background-color: rgba(255, 255, 255, 0.895); */
+    box-shadow: 0px -1px 4px 0px #100310;
+    /* animation: bgg 10s infinite; */
+}
+#icons{
+    position: relative;
+    left: 17px;
+    top: 2px;
+}
+
+td {
+    height: 8rem;
+    width: 8rem;
+    color: red;
+    font-size: 114px;
+    font-weight: 600;
+    text-align: center;
+}
+@keyframes bg {
+    from {background-color: rgba(255, 0, 0, 0.308);}
+    to {background-color: rgba(255, 255, 0, 0.286);}
+}
+@keyframes bgg {
+    from {filter: hue-rotate(0deg);}
+    to {filter: hue-rotate(90deg);}
+}
+/* #icons{
+    width: 80px;
+    height: auto;
+} */
