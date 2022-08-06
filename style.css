@@ -18,6 +18,7 @@ marquee{
     position: absolute;
     bottom: 0px;
     background-color: rgba(100, 148, 237, 0.514) ;
+    color: white;
 }
 h2{
     position: absolute;
