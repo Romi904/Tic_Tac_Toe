@@ -50,14 +50,15 @@ function checkwin() {
     if((a1=='O'&&a2=='O'&&a3=='O')||(b1=='O'&&b2=='O'&&b3=='O')||(c1=='O'&&c2=='O'&&c3=='O')||(a1=='O'&&b1=='O'&&c1=='O')||(b2=='O'&&a2=='O'&&c2=='O')||(a3=='O'&&b3=='O'&&c3=='O')||(a1=='O'&&b2=='O'&&c3=='O')||(a3=='O'&&b2=='O'&&c1=='O'))
     {
         winner.play();
-        window.confirm("  X WINNER .");
-        window.location.reload();
+        document.getElementById('win_banner').style.visibility="visible";
+        // window.confirm("  X WINNER .");
+        setTimeout(miu,4000);
     }
     if((a1=='X'&&a2=='X'&&a3=='X')||(b1=='X'&&b2=='X'&&b3=='X')||(c1=='X'&&c2=='X'&&c3=='X')||(a1=='X'&&b1=='X'&&c1=='X')||(b2=='X'&&a2=='X'&&c2=='X')||(a3=='X'&&b3=='X'&&c3=='X')||(a1=='X'&&b2=='X'&&c3=='X')||(a3=='X'&&b2=='X'&&c1=='X'))
     {
         winner.play();
-        window.confirm("O WINNER");
-        window.location.reload();
+        document.getElementById('win_banner').style.visibility="visible";
+        setTimeout(miu,4000);
     }
 }
 function draw(){
@@ -65,7 +66,7 @@ function draw(){
     {
         document.getElementById('banner').style.visibility="visible";
         document.getElementById('banner').innerText="-----DRAW-----";
-        setTimeout(miu,1000);
+        setTimeout(miu,2000);
     }
 }
 function miu(){

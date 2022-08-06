@@ -40,6 +40,26 @@ h2{
     top: 11rem;
     left: 33rem;
     border-radius: 23px;
+    color: yellow;
+    font-size: 2rem;
+    text-shadow: 7px 1px 5px red;
+}
+#win_banner{
+    visibility: hidden;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: #3500ff;
+    width: 31rem;
+    height: 31rem;
+    position: absolute;
+    top: 11rem;
+    left: 33rem;
+    border-radius: 23px;
+    color: yellow;
+    font-size: 5rem;
+    text-shadow: 7px 1px 5px red;
 }
 /* #background{
     width: 32vw;
