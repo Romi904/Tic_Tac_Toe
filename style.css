@@ -28,9 +28,9 @@ h2{
     display: inline;
     cursor: pointer;
 }
-#banner{
+/* #banner{
     display: flex;
-    /* text-align: center; */
+    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #3500ff;
@@ -43,11 +43,27 @@ h2{
     color: yellow;
     font-size: 2rem;
     text-shadow: 7px 1px 5px red;
-}
-#win_banner{
-    visibility: hidden;
+} */
+#banner {
     display: flex;
     /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: #3500ff;
+    width: 31vw;
+    height: 70vh;
+    position: absolute;
+    top: 22vh;
+    left: 33rem;
+    border-radius: 23px;
+    color: yellow;
+    font-size: 2rem;
+    text-shadow: 7px 1px 5px red;
+}
+/* #win_banner{
+    visibility: hidden;
+    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #3500ff;
@@ -60,8 +76,25 @@ h2{
     color: yellow;
     font-size: 5rem;
     text-shadow: 7px 1px 5px red;
-}
-/* #background{
+} */
+
+#win_banner {
+    visibility: hidden;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: #3500ff;
+    width: 32vw;
+    height: 69vh;
+    position: absolute;
+    top: 22vh;
+    left: 34vw;
+    border-radius: 23px;
+    color: yellow;
+    font-size: 5rem;
+    text-shadow: 7px 1px 5px red;
+}/* #background{
     width: 32vw;
     height: 62vh;
     background-repeat: no-repeat;
