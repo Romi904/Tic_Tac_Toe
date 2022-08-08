@@ -13,6 +13,7 @@ h1{
     left: 38.5rem;
     box-shadow: 5px 2px 5px red;
     display: inline;
+    transition: 1s;
 }
 marquee{
     position: absolute;
@@ -27,6 +28,14 @@ h2{
     box-shadow: 5px 2px 5px red;
     display: inline;
     cursor: pointer;
+    transition: 1s;
+}
+.hover:hover{
+    background-color: rgba(64, 255, 0, 0.758);
+    border-radius: 10px;
+    padding-left: 5px;
+    /* transform: skewX(15deg); */
+    transform: translate(10px, 10px);
 }
 /* #banner{
     display: flex;
